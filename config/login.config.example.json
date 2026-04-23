@@ -1,0 +1,21 @@
+{
+  "loginUrl": "https://example.com/login",
+  "email": "admin@example.com",
+  "password": "your-password",
+  "emailSelector": "input[name='email']",
+  "passwordSelector": "input[name='password']",
+  "submitSelector": "button[type='submit']",
+  "successSelector": "text=Welcome to your Dashboard",
+  "successUrlContains": "/dashboard",
+  "rounds": 1,
+  "roundDelayMs": 1000,
+  "timeoutMs": 15000,
+  "headless": false,
+  "browser": "chromium",
+  "screenshotOnSuccess": true,
+  "slowMoMs": 400,
+  "typingDelayMs": 120,
+  "postLoginWaitMs": 3000,
+  "keepBrowserOpenOnFail": true,
+  "failPauseMs": 10000
+}

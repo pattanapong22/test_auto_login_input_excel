@@ -1,0 +1,5 @@
+config/login.config.json
+outputs/
+artifacts/
+node_modules/
+.DS_Store

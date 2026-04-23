@@ -1,0 +1,11 @@
+{
+  "name": "rpa-auto-test-login",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "RPA auto test login with Excel logging",
+  "scripts": {
+    "auto-test-login": "node ./scripts/auto-test-login.mjs",
+    "auto-test-login:self-test": "node ./scripts/auto-test-login.mjs --self-test"
+  }
+}
