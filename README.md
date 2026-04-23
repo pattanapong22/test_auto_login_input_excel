@@ -34,7 +34,7 @@
 ทดสอบระบบแบบไม่ต้อง login จริง:
 
 ```powershell
-.\run-auto-test-login.ps1 --self-test
+.\run-auto-test-login.ps1 --rounds= [จำนวนที่ต้องการเทส]
 ```
 
 คำสั่งนี้จะเช็กว่า script รันได้ แต่จะไม่เขียนข้อมูลลง Excel
